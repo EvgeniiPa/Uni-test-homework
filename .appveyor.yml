@@ -6,6 +6,4 @@ branches:
 cache: node_modules
 install:
   - npm install
-build: on
-test_skript:
-  - npm run lint && npm test
+build: off
