@@ -1,1 +1,1 @@
-import { healthLine } from "./js/app";
+import { healthLine } from "./js/app.js";
