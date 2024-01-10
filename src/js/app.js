@@ -10,10 +10,5 @@ export function healthLine(item) {
 }
 
 export function usersSorted(users) {
-  users.sort((a, b) => {
-    if (a.health > b.health) {
-      return 1;
-    }
-    return 0;
-  });
+  return users.sort((a, b) => b.health - a.health);
 }
