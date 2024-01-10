@@ -12,3 +12,5 @@ export function healthLine(item) {
 export function usersSorted(users) {
   return users.sort((a, b) => b.health - a.health);
 }
+
+//тест
